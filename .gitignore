@@ -1,0 +1,32 @@
+# Ambiente virtuale
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Cache Jupyter
+.ipynb_checkpoints/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Configurazioni degli editor
+.vscode/
+.idea/
+
+# Variabili d'ambiente e segreti
+.env
+
+# Output temporanei
+outputs/
+logs/
+
+# Modelli potenzialmente molto grandi
+models/
+*.pt
+*.pth
+*.ckpt
